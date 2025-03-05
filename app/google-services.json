@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974030529886",
+    "project_id": "sistem-hidroponik2",
+    "storage_bucket": "sistem-hidroponik2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974030529886:android:738654bc710ce42c205bcf",
+        "android_client_info": {
+          "package_name": "com.example.sistemhidroponik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_wBGVADk9Zk8Dp_aoFZtD1KLwKjnsU9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

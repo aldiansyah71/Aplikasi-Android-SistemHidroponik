@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradientbackground2"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textSize="16sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewKelarutan"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Kelarutan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewKelembapan"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Kelembapan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewPH"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="pH"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewSuhuAir"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Suhu Air"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewSuhuLingkungan"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Suhu Lingkungan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewPHdown"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="pHdown"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewPHup"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="pHup"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewPompaNutrisi"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Pompa Nutrisi"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewWaterHeater"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Water Heater"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewFan"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Fan"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

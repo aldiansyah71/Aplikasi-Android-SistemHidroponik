@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    tools:context=".History">
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="293dp"
+        android:layout_height="294dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradientbackground3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <ImageView
+        android:id="@+id/icBackhistory"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/calendarView"
+        android:layout_centerHorizontal="true"
+        android:text="Refresh"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRefresh"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:text="Selected Date:"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRefresh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="352dp"
+        android:layout_height="390dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Started"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-6dp">
+
+    <ImageView
+        android:id="@+id/imageViewstarted2"
+        android:layout_width="250dp"
+        android:layout_height="233dp"
+        android:src="@drawable/pojokkiri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textViewStarted"
+        android:layout_width="235dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="20dp"
+        android:allowUndo="false"
+        android:fontFamily="sans-serif-light"
+        android:text="Aplikasi yang di gunakan sebagai sarana Teknologi di bidang Pertanian dengan Internet Of Things"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStarted2"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewStarted2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="monospace"
+        android:text="Selamat Datang di Hidroponik IoT"
+        android:textAlignment="center"
+        android:textColor="#78909C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imglogo"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnMulai"
+        android:layout_width="283dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="230dp"
+        android:text="Mulai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewsstarted"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:rotation="180"
+        android:src="@drawable/pojokkiri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
